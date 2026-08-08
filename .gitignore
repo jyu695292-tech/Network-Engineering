@@ -1,0 +1,26 @@
+# ===== Windows系统缓存文件 =====
+Thumbs.db
+Desktop.ini
+
+# ===== VSCode 缓存 =====
+.vscode/
+*.tmp
+*.bak
+*.log
+
+# ===== 导出产物，不提交pdf、word等导出文件 =====
+*.pdf
+*.docx
+*.doc
+*.xlsx
+
+# ===== 设备配置临时备份文件 =====
+*_backup.cfg
+*.old.cfg
+
+# ===== drawio 临时缓存 =====
+*.drawio.bak
+
+# ===== 模拟器抓包临时文件（Wireshark/eNSP/HCL抓包输出，无需手动创建） =====
+*.pcap
+*.pcapng
